@@ -1,20 +1,35 @@
 logs
 
-nginx/*
-!nginx/README.md
-!nginx/examples
-!nginx/nginx-server.exe
-!nginx/nginx-server.xml
+# Windows nginx
+windows/nginx/*
+!windows/nginx/README.md
+!windows/nginx/examples
+!windows/nginx/nginx-server.exe
+!windows/nginx/nginx-server.xml
 
-# php
-php/*
-!php/README.md
-!php/php-server.exe
-!php/php-server.xml
+# Windows php
+windows/php/*
+!windows/php/README.md
+!windows/php/php-server.exe
+!windows/php/php-server.xml
 
+# Windows root
+windows/root/*
+!windows/root/README.md
+!windows/root/.gitkeep
 
-# root
-root/*
-!root/README.md
-!root/.gitkeep
+# macOS nginx
+macOS/nginx/*
+!macOS/nginx/README.md
+!macOS/nginx/examples
+!macOS/nginx/com.nginx.plist
+
+# macOS php  
+macOS/php/*
+!macOS/php/README.md
+!macOS/php/com.php-fpm.plist
+
+# macOS root
+macOS/root/*
+!macOS/root/README.md
 
